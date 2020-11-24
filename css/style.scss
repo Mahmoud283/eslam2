@@ -1,0 +1,78 @@
+$main_color:#2eca7f;
+$second_color:#09c;
+$white_color:#fff;
+$hover:rgba(0,0,0,.5);
+$main_font:20px;
+$small_font:12px;
+$larg_paddingx:30px;
+$larg_paddingy:50px;
+$small_paddingx:10px;
+$small_paddingy:10px;
+$larg_marginx:20px;
+$larg_marginy:20px;
+$small_marginx:5px;
+$small_marginy:10px;
+.matger_img
+{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.matger_img:hover .hide
+{
+    opacity: 1;
+}
+.hide{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color:$hover;
+    color:$white_color;
+    opacity: 0;
+    transition: all .4s;
+
+}
+.matger_img a
+{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white_color;
+   
+}
+
+//pro1
+.price
+{
+    background-color: $main_color;
+    color: $white_color;
+    padding: 10px;
+    text-align: center;
+}
+ a
+{
+    text-decoration: none;
+    color: $white_color;
+}
+
+
+//free
+.line{
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    display: block;
+    background-color: $main_color;
+}
+.free p
+{
+    line-height: 30px;
+}
+.free{
+    background-color: #f8f8f8;
+}
